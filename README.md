@@ -36,15 +36,15 @@ Example run in cmd:
 test_script.py --input test.jpg --output test22.jpg --resize 200 200
 ```
 
-You have many options to choose from:
-```--input path_to_image``` - input file
-```--output path_to_save_image``` - output file
-```--resize value_width value_height``` - option for resize image
-```--crop point1 point2 point3 point4``` - option for crop image
-```--rotate degrees``` - option for rotate image
-```--compression quality``` - option for compression image
-```--negative``` - option for negative image
-```--url``` - url api server default - http://127.0.0.1:8000
+You have many options to choose from:<br />
+```--input path_to_image``` - input file<br />
+```--output path_to_save_image``` - output file<br />
+```--resize value_width value_height``` - option for resize image<br />
+```--crop point1 point2 point3 point4``` - option for crop image<br />
+```--rotate degrees``` - option for rotate image<br />
+```--compression quality``` - option for compression image<br />
+```--negative``` - option for negative image<br />
+```--url``` - url api server default - http://127.0.0.1:8000<br /><br />
 
 ## API methods
 ### POST /augmentation/resize<br />
