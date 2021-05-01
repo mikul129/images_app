@@ -42,7 +42,7 @@ test_script.py is script for tests.
 
 Example run in cmd:<br />
 ```
-test_script.py --input test.jpg --output test22.jpg --resize 200 200
+test_script.py --input testin.jpg --output testout.jpg --resize 200 200
 ```
 
 You have many options to choose from:<br />
@@ -116,7 +116,7 @@ Response body:<br />
 Example request URL<br />
 http://127.0.0.1:8000//augmentation/compression?quality='value_quality'
 
-value_quality - target quality(100-low 0-high)
+value_quality - target quality(0 - low 100 - high)
 
 Request body:<br />
 ```
