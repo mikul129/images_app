@@ -33,14 +33,14 @@ In folder with files write a command:
 ```
 uvicorn main:app --reload
 ```
-Now we should have access to swagger on address:
-http://127.0.0.1:8000/docs
-(for example in your browser)
+Now we should have access to swagger on address:<br />
+http://127.0.0.1:8000/docs<br />
+(for example in your browser)<br />
 
 #Test tool
 test_script.py is script for tests.
 
-Example run in cmd:
+Example run in cmd:<br />
 ```
 test_script.py --input test.jpg --output test22.jpg --resize 200 200
 ```
@@ -58,10 +58,10 @@ You have many options to choose from:<br />
 ## API methods
 ### POST /augmentation/resize<br />
 Example request URL<br />
-http://127.0.0.1:8000//augmentation/resize?width='value_width'&height='value_height'
+http://127.0.0.1:8000//augmentation/resize?width=value_width&height=value_height<br />
 
-value_width - target width
-value_height - target height
+value_width - target width<br />
+value_height - target height<br />
 
 Request body:<br />
 ```
@@ -77,11 +77,11 @@ Response body:<br />
 ```
 ### POST /augmentation/crop<br />
 Example request URL<br />
-http://127.0.0.1:8000//augmentation/crop?point1='value1'&point2='value2'&point3='value3'&point4='value4'
-value1 - coordinate x of the point
-value2 - coordinate y of the point
-value3 - distance from a point on the x axis
-value4 - distance from a point on the y axis
+http://127.0.0.1:8000//augmentation/crop?point1='value1'&point2='value2'&point3='value3'&point4='value4'<br />
+value1 - coordinate x of the point<br />
+value2 - coordinate y of the point<br />
+value3 - distance from a point on the x axis<br />
+value4 - distance from a point on the y axis<br />
 
 Request body:<br />
 ```
@@ -97,8 +97,8 @@ Response body:<br />
 ```
 ### POST /augmentation/rotate<br />
 Example request URL<br />
-http://127.0.0.1:8000//augmentation/rotate?degrees='value_degrees'
-value_degrees - degrees of rotation
+http://127.0.0.1:8000//augmentation/rotate?degrees='value_degrees'<br />
+value_degrees - degrees of rotation<br />
 
 Request body:<br />
 ```
