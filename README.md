@@ -16,8 +16,17 @@ unit_tests.py - file with unit tests<br />
 
 ## Libraries
 
-fastapi==0.63.0
-Pillow==8.2.0
+requirements.txt:<br />
+certifi==2020.12.5<br />
+chardet==4.0.0<br />
+fastapi==0.63.0<br />
+idna==2.10<br />
+Pillow==8.2.0<br />
+pydantic==1.8.1<br />
+requests==2.25.1<br />
+starlette==0.13.6<br />
+typing-extensions==3.7.4.3<br />
+urllib3==1.26.4<br />
 
 ## Quick start
 In folder with files write a command:
