@@ -42,7 +42,7 @@ test_script.py is script for tests.
 
 Example run in cmd:<br />
 ```
-test_script.py --input testin.jpg --output testout.jpg --resize 200 200
+test_script.py --input test.jpg --output testout.jpg --resize 200 200
 ```
 
 You have many options to choose from:<br />
